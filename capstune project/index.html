@@ -36,5 +36,27 @@
         <a href="#">GALLERY</a>
         <a href="#">CONTACT US</a>
         </div>
+        <section>
+            <img src="img1.png" alt="img1" class="mySlides" style="height: 500px; width: 1600px;">
+             <img src="img2.png" alt="img2" class="mySlides" style="height: 500px; width: 1600px;">
+             <img src="img3.png" alt="img2" class="mySlides" style="height: 500px; width: 1600px;">
+             <img src="img4.webp" alt="img2" class="mySlides" style="height: 500px; width: 1600px;">
+             <img src="img5.jpg" alt="img2" class="mySlides" style="height: 500px; width: 1600px;">
+        </section>
+        <script>
+            var myindex = 0
+            carousel()
+            function carousel(){
+                var i
+                var x = document.getElementsByClassName("mySlides")
+                for(i=0;i<x.length;i++){
+                    x[i].style.display = "none"
+                }
+                myindex++
+                if(myindex>x.length){myindex=1}
+                x[myindex-1].style.display = "block"
+                setTimeout(carousel,3000)
+            }
+        </script>
     </body>
 </html>
