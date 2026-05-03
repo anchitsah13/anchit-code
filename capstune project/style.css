@@ -1,0 +1,46 @@
+.pimg1 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("img6.jpg");
+    min-height: 400px;
+}
+.pimg2 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("img5.jpg");
+    min-height: 400px;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark {
+    background-color: #282e34;
+    color:  #ddd;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.ptext .bordertrans {
+   background-color: transparent;
+}
